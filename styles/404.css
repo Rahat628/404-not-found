@@ -1,0 +1,73 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background: #FFF;
+}
+
+header>h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+section h3 {
+    color: #333;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+section p {
+    color: #4F4F4F;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: #333;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+section {
+    display: flex;
+    gap: 100px;
+}
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    section {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    section{
+        align-items: center;
+    }
+
+}
